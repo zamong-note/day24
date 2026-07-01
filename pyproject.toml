@@ -1,0 +1,13 @@
+[project]
+name = "story-writer-agent"
+version = "0.1.0"
+description = "Google ADK로 만든 어린이 동화책 생성 파이프라인 (StoryWriterAgent + IllustratorAgent)"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "google-adk>=1.27.1",
+    "google-genai>=1.31.0",
+    "litellm>=1.82.2",
+    "openai>=2.28.0",
+]
+
