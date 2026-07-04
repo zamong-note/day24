@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat \"c:\\\\Users\\\\JA\\\\Desktop\\\\nomad\\\\nomad-ai-agent-masterclass\\\\assignment\\\\day24\\\\.gitignore\"; echo \"---\"; find \"c:\\\\Users\\\\JA\\\\Desktop\\\\nomad\\\\nomad-ai-agent-masterclass\\\\assignment\" -maxdepth 1 -type d | sort)",
+      "Read(//c/Users/JA/Desktop/nomad/nomad-ai-agent-masterclass/assignment/**)",
+      "Bash(find \"c:\\\\Users\\\\JA\\\\Desktop\\\\nomad\\\\nomad-ai-agent-masterclass\\\\assignment\\\\day16\" \"c:\\\\Users\\\\JA\\\\Desktop\\\\nomad\\\\nomad-ai-agent-masterclass\\\\assignment\\\\day9\" \"c:\\\\Users\\\\JA\\\\Desktop\\\\nomad\\\\nomad-ai-agent-masterclass\\\\assignment\\\\nomad-agent\" -maxdepth 4 -type d 2>/dev/null | sort)",
+      "Read(//c/Users/JA/Desktop/nomad/nomad-ai-agent-masterclass/assignment/day16/**)",
+      "Bash(uv run python -c ' *)"
+    ]
+  }
+}
